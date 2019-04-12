@@ -2,8 +2,6 @@ const Discord = require("discord.js");
 
 const client = new Discord.Client();
 
-
-
 const gamestats = [`#help.bc`,`#bot`,`in 1users`,`v:1`,`By:mohamedamine#1068`,`in 1 servers`,`in 1 channels`]
 
 var index = 0
