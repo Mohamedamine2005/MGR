@@ -19,7 +19,7 @@ client.on("ready", ()=> {
             if( index >= gamestats.length) index = 0 ;
 
         }, timer*1000);
- var prefix = "#";
+var prefix = "#";
 client.on('message', message => {
     let messageArray = message.content.split(" ");
     
@@ -43,7 +43,7 @@ client.on('message', message => {
 });
 
 var prefix = "#";
- client.on("message", message => {//bc1
+client.on("message", message => {//bc1
 
             if (message.content.startsWith(prefix + "bc1")) {
                          if (!message.member.hasPermission("ADMINISTRATOR"))  return;
@@ -127,7 +127,6 @@ client.on('message' , message => {//bcrole
     }
 });
 var prefix = "#";
-
 client.on('message', message => {
 
     if (message.content === (prefix + "bot")) {
